@@ -6,7 +6,7 @@ readme = "README.md"
 repository = "https://github.com/CramBL/descriptive_toml_derive"
 license = "MIT OR Apache-2.0"
 keywords = ["procedural-macro", "derive-macro", "toml-macro"]
-description = "Convenience crate with a trait definition for use with the procedural derive macro descriptive_toml_derive_macro."
+description = "Procedural derive macro for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized."
 categories = ["rust-patterns", "development-tools"]
 authors = ["Marc Beck König <mbkj@tutamail.com>"]
 

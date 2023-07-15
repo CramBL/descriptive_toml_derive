@@ -5,7 +5,7 @@ edition = "2021"
 repository = "https://github.com/CramBL/descriptive_toml_derive"
 license = "MIT OR Apache-2.0"
 keywords = ["procedural-macro", "derive-macro", "toml-macro"]
-description = "Procedural derive macro for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized."
+description = "Published through descriptive_toml_derive. Procedural derive macro implementation for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized."
 categories = ["rust-patterns", "development-tools"]
 authors = ["Marc Beck König <mbkj@tutamail.com>"]
 
