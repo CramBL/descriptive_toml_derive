@@ -1,0 +1,23 @@
+[package]
+name = "descriptive_toml_derive_macro"
+version = "0.1.0"
+edition = "2021"
+repository = "TODO"
+license = "MIT OR Apache-2.0"
+keywords = ["procedural-macro", "derive-macro", "toml-macro"]
+description = "Procedural derive macro for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized."
+categories = ["rust-patterns", "development-tools"]
+authors = ["Marc Beck König <mbkj@tutamail.com>"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.29"
+syn = "2.0.23"

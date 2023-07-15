@@ -1,0 +1,18 @@
+[package]
+name = "descriptive_toml_macro"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+repository = "TODO"
+license = "MIT OR Apache-2.0"
+keywords = ["procedural-macro", "derive-macro", "toml-macro"]
+description = "Convenience crate with a trait definition for use with the procedural derive macro descriptive_toml_derive_macro."
+categories = ["rust-patterns", "development-tools"]
+authors = ["Marc Beck König <mbkj@tutamail.com>"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+descriptive_toml_derive_macro = { version = "0.1.0", path = "descriptive_toml_derive_macro" }
