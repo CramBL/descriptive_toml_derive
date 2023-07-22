@@ -1,3 +1,4 @@
+![Crates.io](https://img.shields.io/crates/d/descriptive_toml_derive)
 # Description
 Procedural derive macro for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized.
 
