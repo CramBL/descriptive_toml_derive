@@ -1,4 +1,6 @@
 ![Crates.io](https://img.shields.io/crates/d/descriptive_toml_derive)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/crambl/descriptive_toml_derive)
+
 # Description
 Procedural derive macro for serializing a struct into a TOML template with field descriptions that is easily edited and deserialized.
 
