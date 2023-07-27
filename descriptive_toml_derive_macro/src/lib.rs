@@ -199,7 +199,7 @@ fn generate_impl(
                     if let Some(field_val) = &self.#field_values {
                          // If the type is `String` the value needs to be in quotes in TOML format
                         let formatted_field_val = if #types.contains(&"String") {
-                                format!("\"{field_val:?}\"")
+                                format!("{field_val:?}")
                         } else {
                             // If the type is a tuple struct, the value needs to be in square brackets in TOML format
                             // This is safe as we know by now that the type is not a `String`
