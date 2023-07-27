@@ -16,3 +16,7 @@ maintenance = { status = "actively-developed" }
 
 [dependencies]
 descriptive_toml_derive_macro = { version = "0.1.0", path = "descriptive_toml_derive_macro" }
+
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
