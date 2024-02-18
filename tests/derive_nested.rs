@@ -1,4 +1,5 @@
 use descriptive_toml_derive::TomlConfig;
+#[allow(unused_imports)]
 use pretty_assertions::assert_eq;
 use serde_derive::{Deserialize, Serialize};
 

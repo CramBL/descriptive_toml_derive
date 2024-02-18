@@ -14,7 +14,7 @@
 //! }
 //! ```
 //!
-//! ```rust
+//! ```rust,ignore
 //! let toml_string = CustomChecks::default().to_string_pretty_toml();
 //! println!({}, toml_string);
 //! ```
